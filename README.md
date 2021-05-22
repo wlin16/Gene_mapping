@@ -14,11 +14,5 @@ The other bit required are updated (or improved) MNI coordinates. E.g., the ones
 
 3) Coordinates to values.ipynb This script obtains the sustain stage for a given MNI coordinate.
 
-4) Add_labels_and_stages.ipynb This script adds regional labels and corresponding gene ids to each subtype
+4) Add_labels_and_stages.ipynb This script adds regional labels and corresponding gene ids to each subtype. This script also contains the correlation part for atrophic progression of MS
 
-5) labels_to_neighbors.ipynb Builds neighborhood graphs that are to be used for adjusting for the spatial autocorrelation in the correlation analysis.
-
-Once the neighborhood graphs have been built. The correlation analysis can be run.
-
-
-pySuStaIn includes all necessary information for SuStaIn. This project is based on the results conducted by SuStaIn. This folder is not necessary for this project, only provides some background and details of the results. 
