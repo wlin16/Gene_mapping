@@ -1,0 +1,26 @@
+EMB_regions,NM_regions,EBM_Stage
+Precuneus,PCu_precuneus,1
+Precentral,PrG_precentral_gyrus,2
+Insula,PIns_posterior_insula,3
+Insula,AIns_anterior_insula,3
+Accumbens,Accumbens_Area,4
+Caudate,Caudate,5
+Calcarine,Calc_calcarine_cortex,6
+Brainstem,Brain_Stem,7
+Thalamus,Thalamus_Proper,8
+Pallidum,Pallidum,9
+Pos.cingulate,PCgG_posterior_cingulate_gyrus,10
+Cuneus,Cun_cuneus,11
+Entorhinal area,Ent_entorhinal_area,12
+Mid. Cingulate,MCgG_middle_cingulate_gyrus,13
+Precentral (medial),MPrG_precentral_gyrus_medial_segment,14
+Occipital fusiform,OFuG_occipital_fusiform_gyrus,15
+Angular gyrus,AnG_angular_gyrus,16
+Hippocampus,Hippocampus,17
+Lingual gyrus,LiG_lingual_gyrus,18
+Amygdala,Amygdala,19
+Putamen,Putamen,20
+Inf. temporal,ITG_inferior_temporal_gyrus,21
+Middle temporal,MTG_middle_temporal_gyrus,22
+Frontal operculum,FO_frontal_operculum,23
+Sup. Temporal,STG_superior_temporal_gyrus,24
