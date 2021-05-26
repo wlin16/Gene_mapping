@@ -14,5 +14,7 @@ The other bit required are updated (or improved) MNI coordinates. E.g., the ones
 
 3) Coordinates to values.ipynb This script obtains the sustain stage for a given MNI coordinate.
 
-4) Add_labels_and_stages.ipynb This script adds regional labels and corresponding gene ids to each subtype. This script also contains the correlation part for atrophic progression of MS
+4) Regional_correlation.ipynb This script adds regional labels and EBM Stages to each sample ID. This script also contains the correlation part for temporal atrophic progression in MS
+
+After finishing the correlation part, the most correlated genes with the progression can be obatained (according to the r values). Then, these genes can be put into GO for overrepresentation analysis
 
