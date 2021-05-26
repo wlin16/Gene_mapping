@@ -16,5 +16,5 @@ The other bit required are updated (or improved) MNI coordinates. E.g., the ones
 
 4) Regional_correlation.ipynb This script adds regional labels and EBM Stages to each sample ID. This script also contains the correlation part for temporal atrophic progression in MS
 
-After finishing the correlation part, the most correlated genes with the progression can be obatained (according to the r values). Then, these genes can be put into GO for overrepresentation analysis
+After finishing the correlation part, the most correlated genes with the progression can be obatained (according to the r values). Then, these genes can be put into GO for overrepresentation analysis. In this project, we used an online Go tool which can be accessed through: http://cbl-gorilla.cs.technion.ac.il/
 
