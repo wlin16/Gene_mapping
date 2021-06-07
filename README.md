@@ -18,6 +18,8 @@ The other bit required are updated (or improved) MNI coordinates. E.g., the ones
 
 4) Regional_correlation.ipynb This script adds regional labels and EBM Stages to each sample ID. This script also contains the correlation part for temporal atrophic progression in MS
 
+5) Genetic_correlation_plotting.ipynb This script plot out the figures for the correlation between the MS progression with top ten most correlated genes in positive and negative lists.
+
 
 ## II. GO overrepresentation analysis
 
