@@ -44,5 +44,5 @@ The script for removing skull, CSF etc. and image parcellation: 'instruction_for
 Please install FSLeye software before typing the codes into terminal. 
 
 ## 2. Supplementary dataset
-Two Supplementary datasets can be found in the 'Supplementary dataset' file. Supplementary dataset 1 includes all significantly correlated genes; Supplementary dataset 2 includes all significantly enriched GO terms. 
+Two Supplementary datasets can be found in the 'data' file. Supplementary dataset 1 includes all significantly correlated genes; Supplementary dataset 2 includes all significantly enriched GO terms. 
 
