@@ -1,0 +1,21 @@
+
+#type the following codes into terminal line-by-line
+#use the brain mask to remove skull etc
+#(FLIRT only works when there is only the brain in the image, not skull etc)
+> fslmaths t1.nii.gz -mas t1_corrected_NeuroMorph_Brain.nii.gz t1_only_brain
+
+#now we register that brain to the standard template brain
+#(this will take a few minutes)
+> flirt -in t1_only_brain.nii.gz -ref /usr/local/fsl/data/standard/MNI152_T1_1mm_brain.nii.gz -omat affine -o t1_mni
+
+(If the FSL has been installed properly, we should have this file 'MNI152_T1_1mm_brain.nii.gz'. We will be able to find this by starting fsleyes and then 'File'->'Add Standard')
+
+#The previous step produced the registered output brain (t1_mni.nii.gz) and a file containing the transformation (rotation, shrinkage etc) that was carried out (affine). Now we use these intsructions to move the parcellation into the same space.
+> flirt -interp nearestneighbour -in t1_corrected_NeuroMorph_Parcellation.nii.gz -ref /usr/local/fsl/data/standard/MNI152_T1_1mm_brain.nii.gz -applyxfm -init affine -out t1_parcellation_mni
+
+#Almost done! One of the 'labels' in the parcellation is 'CSF' which we want to get rid of for better visualization
+> fslmaths t1_parcellation_mni.nii.gz -thr 5 t1_parcellation_mni_v2
+
+#Done! Now we have your parcellation in MNI space!
+
+#With the file (t1_parcellation_mni_v2.nii.gz) we can then run the python scripts to map the allen data to the NM labels (data-preprocessing).
