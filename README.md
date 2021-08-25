@@ -35,3 +35,14 @@ As we also would like to know the correlation between the potential brain cell t
 
 Cell_type_plotting.ipynb This script combined two datasets to calculate the expression extent of various cell types by genes in two lists. 
 
+########################################################
+
+# Appendix
+
+## 1. Script for image parcellation
+The script for removing skull, CSF etc. and image parcellation: instruction_for_parcellation.
+Please install FSLeye software before typing the codes into terminal. 
+
+## 2. Supplementary dataset
+Two Supplementary datasets can be found in the 'Supplementary dataset' file. Supplementary dataset 1 includes all significantly correlated genes; Supplementary dataset 2 includes all significantly enriched GO terms. 
+
