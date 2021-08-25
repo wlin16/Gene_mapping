@@ -40,7 +40,7 @@ Cell_type_plotting.ipynb This script combined two datasets to calculate the expr
 # Appendix
 
 ## 1. Script for image parcellation
-The script for removing skull, CSF etc. and image parcellation: instruction_for_parcellation.
+The script for removing skull, CSF etc. and image parcellation: 'instruction_for_parcellation.txt'.
 Please install FSLeye software before typing the codes into terminal. 
 
 ## 2. Supplementary dataset
