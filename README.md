@@ -33,7 +33,7 @@ Rank.ipynb This script matches r values to all genes in order.
 
 As we also would like to know the correlation between the potential brain cell type and MS temporal progression, we combined the genetic expression data with the cell fraction data (Menden et al. 2020).
 
-Cell_type_plotting.ipynb This script combined two datasets to calculate the expression extent of various cell types by genes in two lists. 
+Cell_type_plotting.ipynb This script applied data in celltype_deconvolution.txt to calculate the expression extent of various cell types by the EBM stage. 
 
 ########################################################
 
